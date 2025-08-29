@@ -1,0 +1,96 @@
+.about .about-content {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    gap: 30px;
+}
+
+.about .about-content .left {
+    margin-left: auto;
+    width: 25%;
+}
+
+.about .about-content .right {
+    margin-left: auto;
+    width: 55%;
+}
+
+.about .about-content .left .about-content-img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border: 4px solid var(--light_blue);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.about .about-content .left .about-content-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: left;
+    object-position: left;
+}
+
+.about .about-content .about-content-bottom p {
+    font-size: 1.5rem;
+    color: var(--light_gray);
+}
+
+/* card info style */
+.about .about-content .card-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--navy_blue);
+    border-radius: 7px;
+}
+
+.about .about-content .card-info span {
+    font-size: 2.2rem;
+}
+
+.about .about-content .card-info span+h5 {
+    font-size: 1.7rem;
+}
+
+.about .about-content .card-info p {
+    font-size: 1.4rem;
+    color: var(--light_gray);
+    white-space: nowrap;
+}
+
+.about .about-content .card-info a {
+    color: var(--light_blue);
+}
+
+/*====================================*/
+/*===========Responsive===============*/
+/*====================================*/
+
+@media screen and (max-width: 991px) {
+
+    .about .about-content {
+        width: 90%;
+
+        flex-direction: column;
+    }
+
+    .about .about-content .right {
+        width: 100%;
+    }
+
+    .about .about-content .left {
+        width: 45%;
+        margin-left: 0;
+        margin: auto;
+
+    }
+
+}

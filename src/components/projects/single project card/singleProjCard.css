@@ -1,0 +1,144 @@
+.single-proj-card {
+    position: relative;
+    height: auto;
+    padding: 22px;
+    margin-bottom: 20px;
+    background-color: var(--navy_blue);
+    border-radius: 22px;
+}
+
+/* here we edit the style [zoomIn] class that inside [wow libray]*/
+.zoomIn {
+    -webkit-animation: display .5s ease-in-out forwards;
+    animation: display .5s ease-in-out forwards;
+}
+
+@-webkit-keyframes display {
+    0% {
+        opacity: 0;
+        transform: scale(.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes display {
+    0% {
+        opacity: 0;
+        transform: scale(.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.single-proj-card:hover {
+    box-shadow: 0 0 10px rgba(255 255 255 / 12%);
+}
+
+.single-proj-card .img-box {
+    width: 100%;
+    height: 200px;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.single-proj-card .img-box img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
+}
+
+.single-proj-card .img-box+h3 {
+    margin: 14px 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.single-proj-card .skills-img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 17px;
+    height: 50px;
+}
+
+.single-proj-card .skills-img-box img {
+    width: 30px;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.single-proj-card .ribbon {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+
+.single-proj-card .ribbon span {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 2px;
+    padding: 4px 0;
+    width: 200px;
+    font-size: 1.9rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    transform: rotate(-45deg);
+    background-color: var(--light_blue);
+}
+
+.single-proj-card .ribbon::before,
+.single-proj-card .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-color: transparent #467a9e #467a9e transparent;
+    border-style: solid;
+    border-width: 6px;
+}
+
+.single-proj-card .ribbon::before {
+    top: 0;
+    right: 28px;
+}
+
+.single-proj-card .ribbon::after {
+    bottom: 27px;
+    left: -2px;
+}
+
+/*====================================*/
+/*===========Responsive===============*/
+/*====================================*/
+
+@media only screen and (max-width: 991px) {
+
+    .single-proj-card .ribbon::before {
+        top: 0;
+        right: 32px;
+    }
+
+    .single-proj-card .ribbon::after {
+        bottom: 32px;
+        left: 0;
+    }
+
+}

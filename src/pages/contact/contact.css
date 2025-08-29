@@ -1,0 +1,89 @@
+.contact .contact-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contact .contact-content .contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 250px;
+}
+
+.contact .contact-content .contact-right {
+    width: 350px;
+}
+
+.Toastify__toast-body>div:last-child {
+    font-size: 14px;
+}
+
+.Toastify__toast {
+    padding: 7px !important;
+}
+
+.Toastify__toast-icon {
+    width: 18px !important;
+}
+
+.Toastify__progress-bar {
+    height: 4px !important;
+}
+
+.contact .contact-content .card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1;
+    padding: 20px;
+    background-color: var(--navy_blue);
+    border-radius: 7px;
+}
+
+.contact .contact-content .card-info span {
+    font-size: 2.2rem;
+}
+
+.contact .contact-content .card-info span+h5 {
+    font-size: 1.7rem;
+}
+
+.contact .contact-content .card-info a {
+    font-size: 1.5rem;
+    color: var(--light_blue);
+}
+
+/*====================================*/
+/*===========Responsive===============*/
+/*====================================*/
+
+@media only screen and (max-width: 576px) {
+
+    .contact .contact-content {
+        flex-direction: column;
+        gap: 25px;
+        margin: auto;
+        width: 90%;
+    }
+
+    .contact .contact-content .contact-left {
+        gap: 25px;
+        width: 100%;
+    }
+
+    .contact .contact-content .contact-right {
+        width: 100%;
+    }
+
+    .Toastify__toast-body>div:last-child {
+        font-size: 14px;
+    }
+
+    .Toastify__toast {
+        margin: 15px 5px 0 auto !important;
+        width: 75% !important;
+    }
+
+}
