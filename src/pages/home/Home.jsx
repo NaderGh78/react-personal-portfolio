@@ -56,7 +56,7 @@ const Home = () => {
           <div ref={el2} className="info-typing"></div>
         </div>
         <div className="social-links">
-          <a href="https://www.linkedin.com/in/nader-ghanawi-4312451a4/" target="_blank"><FaLinkedin /></a>
+          <a href="https://www.linkedin.com/in/nader-ghanawi/" target="_blank"><FaLinkedin /></a>
           <a href="https://github.com/NaderGh78" target="_blank"><FaGithub /></a>
           <a href="https://codepen.io/matrix78/pens/public" target="_blank"><FaCodepen /></a>
         </div>

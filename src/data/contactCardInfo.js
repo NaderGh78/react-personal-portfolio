@@ -9,8 +9,8 @@ export const contactCardInfo = [
         id: 1,
         cardIcon: <FaLinkedin />,
         cardTitle: "LinkidIn",
-        cardLink: "https://www.linkedin.com/in/nader-ghanawi-4312451a4/",
-        cardLinkText: "nader-ghanawi-4312451a4"
+        cardLink: "https://www.linkedin.com/in/nader-ghanawi",
+        cardLinkText: "nader-ghanawi"
     },
     {
         id: 2,
