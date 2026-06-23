@@ -163,6 +163,24 @@
    },
    {
       "id": 10,
+      "projImg": "/assets/images/projects/projects-imgs/auth.png",
+      "projName": "secure auth",
+      "projRubbon": true,
+      "projRubbonTitle": "mern stack",
+      "projSkillsImgArr": [
+         "/assets/images/projects/skills/mongodb.png",
+         "/assets/images/projects/skills/express.png",
+         "/assets/images/projects/skills/react.png",
+         "/assets/images/projects/skills/node.png",
+         "/assets/images/projects/skills/redux.png"
+      ],
+      "projRoutName": "auth",
+      "projLive": "https://mern-secure-auth.onrender.com/",
+      "projGithub": "https://github.com/NaderGh78/mern-secure-auth",
+      "projFilter": "mern stack"
+   },
+   {
+      "id": 11,
       "projImg": "/assets/images/projects/projects-imgs/primoparts.png",
       "projName": "Primo parts",
       "projRubbon": false,
@@ -180,7 +198,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 11,
+      "id": 12,
       "projImg": "/assets/images/projects/projects-imgs/capetania.png",
       "projName": "Cafe Capetania",
       "projRubbon": false,
@@ -198,7 +216,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 12,
+      "id": 13,
       "projImg": "/assets/images/projects/projects-imgs/msl.png",
       "projName": "Msl React",
       "projRubbon": true,
@@ -216,7 +234,7 @@
       "projFilter": "react js"
    },
    {
-      "id": 13,
+      "id": 14,
       "projImg": "/assets/images/projects/projects-imgs/primoservice.png",
       "projName": "Primo Service",
       "projRubbon": false,
@@ -234,7 +252,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 14,
+      "id": 15,
       "projImg": "/assets/images/projects/projects-imgs/primoweb.png",
       "projName": "Primo Web",
       "projRubbon": false,
@@ -252,7 +270,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 15,
+      "id": 16,
       "projImg": "/assets/images/projects/projects-imgs/worldpres.png",
       "projName": "world presentation",
       "projRubbon": false,
@@ -270,7 +288,7 @@
       "projFilter": "html css js"
    },
    {
-      "id": 16,
+      "id": 17,
       "projImg": "/assets/images/projects/projects-imgs/social.PNG",
       "projName": "Simple Social Media",
       "projRubbon": true,
@@ -288,7 +306,7 @@
       "projFilter": "react js"
    },
    {
-      "id": 17,
+      "id": 18,
       "projImg": "/assets/images/projects/projects-imgs/codepen.png",
       "projName": "My Codepen",
       "projRubbon": true,
@@ -304,7 +322,7 @@
       "projFilter": "others"
    },
    {
-      "id": 18,
+      "id": 19,
       "projImg": "/assets/images/projects/projects-imgs/newCv.png",
       "projName": "Nader portfolio",
       "projRubbon": true,
@@ -322,7 +340,7 @@
       "projFilter": "react js"
    },
    {
-      "id": 19,
+      "id": 20,
       "projImg": "/assets/images/projects/projects-imgs/oldCv.png",
       "projName": "My First Cv",
       "projRubbon": false,
