@@ -271,7 +271,7 @@
    },
    {
       "id": 16,
-      "projImg": "/assets/images/projects/projects-imgs/social.png",
+      "projImg": "/assets/images/projects/projects-imgs/social.PNG",
       "projName": "Simple Social Media",
       "projRubbon": true,
       "projRubbonTitle": "react js",
